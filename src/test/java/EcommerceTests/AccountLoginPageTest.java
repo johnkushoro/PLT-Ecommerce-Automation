@@ -6,10 +6,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+
 public class AccountLoginPageTest extends BaseTest {
 
     @Autowired
     private AccountLoginPage accountLoginPage;
+
 
     @Test
     public void accountLoginPageTest() {

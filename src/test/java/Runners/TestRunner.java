@@ -1,38 +1,3 @@
-//
-//package Runners;
-//
-//import org.testng.TestNG;
-//import org.testng.annotations.AfterClass;
-//import org.testng.annotations.BeforeClass;
-//import org.testng.annotations.Test;
-//
-//public class TestRunner {
-//
-//    @BeforeClass
-//    public void setup() {
-//        // Setup operations before running tests
-//    }
-//
-//    @Test
-//    public void runTests() {
-//        TestNG testng = new TestNG();
-//        testng.setTestClasses(new Class[] {
-//                EcommerceTests.HomePageTests.class,
-//                EcommerceTests.AccountLoginPageTest.class,
-//                EcommerceTests.ProductListPageTests.class,
-//                EcommerceTests.ProductDetailPageTests.class,
-//                EcommerceTests.ShoppingCartPageTests.class,
-//                EcommerceTests.CheckOutPageTests.class
-//        });
-//        testng.run();
-//    }
-//
-//    @AfterClass
-//    public void tearDown() {
-//
-//    }
-//}
-
 
 package Runners;
 

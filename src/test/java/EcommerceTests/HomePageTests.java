@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+
 public class HomePageTests extends BaseTest {
 
     @Autowired

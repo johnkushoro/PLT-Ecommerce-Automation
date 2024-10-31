@@ -10,6 +10,7 @@ public class ProductListPageTests extends BaseTest {
     @Autowired
     private ProductListPage productListPage;
 
+
     @Test(description = "Verify that the PLP Category Description is displayed and select a product from the PLP Category")
     public void verifyPLPAndSelectsProductTest() throws InterruptedException {
         boolean isVisible = productListPage.isCategoryDescriptionVisible();
