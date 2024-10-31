@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]">
+  <test thread-count="5" name="Command line test(failed)">
+    <classes>
+      <class name="EcommerceTests.CheckOutPageTests">
+        <methods>
+          <include name="testDeliveryAndGrandTotalDisplay"/>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="setUpOnceForSuite"/>
+          <include name="testUserSelectsAndVerifiesPaymentMethod"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="testUserScrollsToPaymentMethod"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestMethod"/>
+          <include name="tearDownAfterSuite"/>
+          <include name="testProductDetailsMatchInCheckoutBagSection"/>
+        </methods>
+      </class> <!-- EcommerceTests.CheckOutPageTests -->
+      <class name="EcommerceTests.ShoppingCartPageTests">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="setUpOnceForSuite"/>
+          <include name="verifyUserProceedsToCheckout"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestMethod"/>
+          <include name="verifyCartSubtotalIsStored"/>
+          <include name="tearDownAfterSuite"/>
+        </methods>
+      </class> <!-- EcommerceTests.ShoppingCartPageTests -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

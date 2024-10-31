@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 6 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Command_line_suite" class="navigator-link">
+              <span class="suite-name border-failed">Command line suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Command_line_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Command_line_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Command_line_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Command_line_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Command_line_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Command_line_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Command_line_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">15 methods, 6 failed,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods failed suite-Command_line_suite"> (hide)</a> <!-- hide-methods failed suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods failed suite-Command_line_suite"> (show)</a> <!-- show-methods failed suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Command_line_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="EcommerceTests.CheckOutPageTests" class="method navigator-link" hash-for-method="testDeliveryAndGrandTotalDisplay">testDeliveryAndGrandTotalDisplay</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="EcommerceTests.CheckOutPageTests" class="method navigator-link" hash-for-method="testProductDetailsMatchInCheckoutBagSection">testProductDetailsMatchInCheckoutBagSection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="EcommerceTests.CheckOutPageTests" class="method navigator-link" hash-for-method="testUserScrollsToPaymentMethod">testUserScrollsToPaymentMethod</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="EcommerceTests.CheckOutPageTests" class="method navigator-link" hash-for-method="testUserSelectsAndVerifiesPaymentMethod">testUserSelectsAndVerifiesPaymentMethod</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="EcommerceTests.ShoppingCartPageTests" class="method navigator-link" hash-for-method="verifyCartSubtotalIsStored">verifyCartSubtotalIsStored</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="EcommerceTests.ShoppingCartPageTests" class="method navigator-link" hash-for-method="verifyUserProceedsToCheckout">verifyUserProceedsToCheckout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Command_line_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods passed suite-Command_line_suite"> (hide)</a> <!-- hide-methods passed suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods passed suite-Command_line_suite"> (show)</a> <!-- show-methods passed suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Command_line_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="EcommerceTests.AccountLoginPageTest" class="method navigator-link" hash-for-method="accountLoginPageTest">accountLoginPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="EcommerceTests.HomePageTests" class="method navigator-link" hash-for-method="navigateToLoginPageFromHomePageTest">navigateToLoginPageFromHomePageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="EcommerceTests.AccountLoginPageTest" class="method navigator-link" hash-for-method="navigateToPLP">navigateToPLP</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="EcommerceTests.ProductDetailPageTests" class="method navigator-link" hash-for-method="testClickBagIcon">testClickBagIcon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="EcommerceTests.HomePageTests" class="method navigator-link" hash-for-method="testHomePageNavigation">testHomePageNavigation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="EcommerceTests.ProductDetailPageTests" class="method navigator-link" hash-for-method="testSelectProductOptionsAndAddToBag">testSelectProductOptionsAndAddToBag</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="EcommerceTests.ProductListPageTests" class="method navigator-link" hash-for-method="verifyPLPAndSelectsProductTest">verifyPLPAndSelectsProductTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="EcommerceTests.AccountLoginPageTest" class="method navigator-link" hash-for-method="verifyPLPNavigation">verifyPLPNavigation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="EcommerceTests.ShoppingCartPageTests" class="method navigator-link" hash-for-method="verifyProductInCartMatchesSelectedProduct">verifyProductInCartMatchesSelectedProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Command_line_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Command_line_suite" class="panel Command_line_suite">
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">EcommerceTests.CheckOutPageTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeliveryAndGrandTotalDisplay">
+                  </a> <!-- testDeliveryAndGrandTotalDisplay -->
+                  <span class="method-name">testDeliveryAndGrandTotalDisplay</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: li[class=&apos;bag__totals-item&apos;] span:nth-child(2) (tried for 120 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.0.1&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.70, chrome: {chromedriverVersion: 130.0.6723.91 (53ac07678369..., userDataDir: /var/folders/m2/gnsdsm1x1q9...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52755}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52755/devtoo..., se:cdpVersion: 130.0.6723.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 181028a013f3e7d3ac8a19f073959b51
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at PageObject.CheckOutPage.checkAndGetDeliveryTotalText(CheckOutPage.java:101)
+	at EcommerceTests.CheckOutPageTests.testDeliveryAndGrandTotalDisplay(CheckOutPageTests.java:33)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:186)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at Runners.TestRunner.runTests(TestRunner.java:70)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 46 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify that the delivery and grand total are displayed in the bag section)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProductDetailsMatchInCheckoutBagSection">
+                  </a> <!-- testProductDetailsMatchInCheckoutBagSection -->
+                  <span class="method-name">testProductDetailsMatchInCheckoutBagSection</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: li.bag-item__name (tried for 120 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.0.1&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.70, chrome: {chromedriverVersion: 130.0.6723.91 (53ac07678369..., userDataDir: /var/folders/m2/gnsdsm1x1q9...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52755}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52755/devtoo..., se:cdpVersion: 130.0.6723.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 181028a013f3e7d3ac8a19f073959b51
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at PageObject.CheckOutPage.ProductNameOnCheckout(CheckOutPage.java:75)
+	at PageObject.CheckOutPage.storeProductNameOnCheckout(CheckOutPage.java:55)
+	at PageObject.CheckOutPage.storeProductDetailsOnCheckout(CheckOutPage.java:46)
+	at EcommerceTests.CheckOutPageTests.testProductDetailsMatchInCheckoutBagSection(CheckOutPageTests.java:22)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:186)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at Runners.TestRunner.runTests(TestRunner.java:70)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 46 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify that product details in the bag match those on the checkout page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUserScrollsToPaymentMethod">
+                  </a> <!-- testUserScrollsToPaymentMethod -->
+                  <span class="method-name">testUserScrollsToPaymentMethod</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: .box__title-container .box__title (tried for 120 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.0.1&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.70, chrome: {chromedriverVersion: 130.0.6723.91 (53ac07678369..., userDataDir: /var/folders/m2/gnsdsm1x1q9...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52755}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52755/devtoo..., se:cdpVersion: 130.0.6723.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 181028a013f3e7d3ac8a19f073959b51
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at PageObject.CheckOutPage.checkAndGetPaymentInformationText(CheckOutPage.java:117)
+	at EcommerceTests.CheckOutPageTests.testUserScrollsToPaymentMethod(CheckOutPageTests.java:39)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:186)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at Runners.TestRunner.runTests(TestRunner.java:70)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 46 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify that the payment information section is visible upon scrolling)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUserSelectsAndVerifiesPaymentMethod">
+                  </a> <!-- testUserSelectsAndVerifiesPaymentMethod -->
+                  <span class="method-name">testUserSelectsAndVerifiesPaymentMethod</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //label[.//h4[text()=&apos;%$&apos;]]//input[@type=&apos;radio&apos;] (tried for 120 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.0.1&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.70, chrome: {chromedriverVersion: 130.0.6723.91 (53ac07678369..., userDataDir: /var/folders/m2/gnsdsm1x1q9...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52755}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52755/devtoo..., se:cdpVersion: 130.0.6723.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 181028a013f3e7d3ac8a19f073959b51
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at PageObject.CheckOutPage.clickAndVerifyButtonByLabelText(CheckOutPage.java:140)
+	at EcommerceTests.CheckOutPageTests.testUserSelectsAndVerifiesPaymentMethod(CheckOutPageTests.java:45)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:186)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at Runners.TestRunner.runTests(TestRunner.java:70)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 46 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify that user can select and confirm a payment method)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">EcommerceTests.ShoppingCartPageTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCartSubtotalIsStored">
+                  </a> <!-- verifyCartSubtotalIsStored -->
+                  <span class="method-name">verifyCartSubtotalIsStored</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;Model.ProductDetails.getProductSubtotal()&quot; because the return value of &quot;PageObject.ShoppingCartPage.getProductDetails()&quot; is null
+	at EcommerceTests.ShoppingCartPageTests.verifyCartSubtotalIsStored(ShoppingCartPageTests.java:31)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:186)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at Runners.TestRunner.runTests(TestRunner.java:70)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 46 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify that the cart subtotal is stored)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUserProceedsToCheckout">
+                  </a> <!-- verifyUserProceedsToCheckout -->
+                  <span class="method-name">verifyUserProceedsToCheckout</span>
+                  <div class="stack-trace">java.lang.AssertionError: The user was not navigated to the checkout page. expected [true] but found [false]
+	at EcommerceTests.ShoppingCartPageTests.verifyUserProceedsToCheckout(ShoppingCartPageTests.java:38)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:186)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at Runners.TestRunner.runTests(TestRunner.java:70)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 49 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify that the user can proceed to checkout)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">EcommerceTests.HomePageTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigateToLoginPageFromHomePageTest">
+                  </a> <!-- navigateToLoginPageFromHomePageTest -->
+                  <span class="method-name">navigateToLoginPageFromHomePageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testHomePageNavigation">
+                  </a> <!-- testHomePageNavigation -->
+                  <span class="method-name">testHomePageNavigation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">EcommerceTests.AccountLoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="accountLoginPageTest">
+                  </a> <!-- accountLoginPageTest -->
+                  <span class="method-name">accountLoginPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigateToPLP">
+                  </a> <!-- navigateToPLP -->
+                  <span class="method-name">navigateToPLP</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPLPNavigation">
+                  </a> <!-- verifyPLPNavigation -->
+                  <span class="method-name">verifyPLPNavigation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">EcommerceTests.ProductListPageTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPLPAndSelectsProductTest">
+                  </a> <!-- verifyPLPAndSelectsProductTest -->
+                  <span class="method-name">verifyPLPAndSelectsProductTest</span>
+                  <em>
+(Verify that the PLP Category Description is displayed and select a product from the PLP Category)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">EcommerceTests.ShoppingCartPageTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductInCartMatchesSelectedProduct">
+                  </a> <!-- verifyProductInCartMatchesSelectedProduct -->
+                  <span class="method-name">verifyProductInCartMatchesSelectedProduct</span>
+                  <em>
+(Verify that the product in the cart matches the selected product)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">EcommerceTests.ProductDetailPageTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickBagIcon">
+                  </a> <!-- testClickBagIcon -->
+                  <span class="method-name">testClickBagIcon</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectProductOptionsAndAddToBag">
+                  </a> <!-- testSelectProductOptionsAndAddToBag -->
+                  <span class="method-name">testSelectProductOptionsAndAddToBag</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+        </div> <!-- panel Command_line_suite -->
+        <div panel-name="test-xml-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Command line suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Command line test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;EcommerceTests.HomePageTests&quot;/&gt;
+      &lt;class name=&quot;EcommerceTests.AccountLoginPageTest&quot;/&gt;
+      &lt;class name=&quot;EcommerceTests.ProductListPageTests&quot;/&gt;
+      &lt;class name=&quot;EcommerceTests.ProductDetailPageTests&quot;/&gt;
+      &lt;class name=&quot;EcommerceTests.ShoppingCartPageTests&quot;/&gt;
+      &lt;class name=&quot;EcommerceTests.CheckOutPageTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test --&gt;
+&lt;/suite&gt; &lt;!-- Command line suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Command_line_suite');
+function tableData_Command_line_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(15);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyUserProceedsToCheckout')
+data.setCell(0, 2, 'EcommerceTests.ShoppingCartPageTests')
+data.setCell(0, 3, 183429);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testUserSelectsAndVerifiesPaymentMethod')
+data.setCell(1, 2, 'EcommerceTests.CheckOutPageTests')
+data.setCell(1, 3, 123134);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testProductDetailsMatchInCheckoutBagSection')
+data.setCell(2, 2, 'EcommerceTests.CheckOutPageTests')
+data.setCell(2, 3, 120311);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testUserScrollsToPaymentMethod')
+data.setCell(3, 2, 'EcommerceTests.CheckOutPageTests')
+data.setCell(3, 3, 120219);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testDeliveryAndGrandTotalDisplay')
+data.setCell(4, 2, 'EcommerceTests.CheckOutPageTests')
+data.setCell(4, 3, 120046);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'accountLoginPageTest')
+data.setCell(5, 2, 'EcommerceTests.AccountLoginPageTest')
+data.setCell(5, 3, 43167);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'navigateToPLP')
+data.setCell(6, 2, 'EcommerceTests.AccountLoginPageTest')
+data.setCell(6, 3, 12452);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'navigateToLoginPageFromHomePageTest')
+data.setCell(7, 2, 'EcommerceTests.HomePageTests')
+data.setCell(7, 3, 11542);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyPLPAndSelectsProductTest')
+data.setCell(8, 2, 'EcommerceTests.ProductListPageTests')
+data.setCell(8, 3, 10878);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testClickBagIcon')
+data.setCell(9, 2, 'EcommerceTests.ProductDetailPageTests')
+data.setCell(9, 3, 10833);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testSelectProductOptionsAndAddToBag')
+data.setCell(10, 2, 'EcommerceTests.ProductDetailPageTests')
+data.setCell(10, 3, 9821);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyProductInCartMatchesSelectedProduct')
+data.setCell(11, 2, 'EcommerceTests.ShoppingCartPageTests')
+data.setCell(11, 3, 57);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyPLPNavigation')
+data.setCell(12, 2, 'EcommerceTests.AccountLoginPageTest')
+data.setCell(12, 3, 9);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testHomePageNavigation')
+data.setCell(13, 2, 'EcommerceTests.HomePageTests')
+data.setCell(13, 3, 3);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyCartSubtotalIsStored')
+data.setCell(14, 2, 'EcommerceTests.ShoppingCartPageTests')
+data.setCell(14, 3, 3);
+window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 12 minutes</span>
+              <div id="times-div-Command_line_suite">
+              </div> <!-- times-div-Command_line_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">5 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">EcommerceTests.AccountLoginPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDownAfterSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">EcommerceTests.ProductListPageTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDownAfterSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">EcommerceTests.CheckOutPageTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDownAfterSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">EcommerceTests.ShoppingCartPageTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDownAfterSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">EcommerceTests.ProductDetailPageTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDownAfterSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">EcommerceTests.HomePageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void EcommerceTests.HomePageTests.navigateToLoginPageFromHomePageTest() throws java.lang.Inte...)</span>
+                <span class="method-start">1233 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpOnceForSuite</span>
+                <span class="method-start">1241 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">navigateToLoginPageFromHomePageTest</span>
+                <span class="method-start">2322 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void EcommerceTests.HomePageTests.navigateToLoginPageFromHomePageTest() throws java.lang.Inte...)</span>
+                <span class="method-start">13865 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void EcommerceTests.HomePageTests.testHomePageNavigation())</span>
+                <span class="method-start">13867 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testHomePageNavigation</span>
+                <span class="method-start">13868 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpOnceForSuite</span>
+                <span class="method-start">13868 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void EcommerceTests.HomePageTests.testHomePageNavigation())</span>
+                <span class="method-start">13871 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">13872 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">EcommerceTests.AccountLoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">13873 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">13873 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">accountLoginPageTest</span>
+                <span class="method-start">13874 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpOnceForSuite</span>
+                <span class="method-start">13874 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void EcommerceTests.AccountLoginPageTest.accountLoginPageTest())</span>
+                <span class="method-start">13874 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void EcommerceTests.AccountLoginPageTest.accountLoginPageTest())</span>
+                <span class="method-start">57042 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">navigateToPLP</span>
+                <span class="method-start">57043 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void EcommerceTests.AccountLoginPageTest.navigateToPLP())</span>
+                <span class="method-start">57043 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpOnceForSuite</span>
+                <span class="method-start">57043 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void EcommerceTests.AccountLoginPageTest.navigateToPLP())</span>
+                <span class="method-start">69496 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void EcommerceTests.AccountLoginPageTest.verifyPLPNavigation())</span>
+                <span class="method-start">69497 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpOnceForSuite</span>
+                <span class="method-start">69498 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPLPNavigation</span>
+                <span class="method-start">69498 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void EcommerceTests.AccountLoginPageTest.verifyPLPNavigation())</span>
+                <span class="method-start">69507 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">69507 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">EcommerceTests.ProductListPageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">69508 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">69508 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void EcommerceTests.ProductListPageTests.verifyPLPAndSelectsProductTest() throws java.lang.In...)</span>
+                <span class="method-start">69509 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpOnceForSuite</span>
+                <span class="method-start">69510 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPLPAndSelectsProductTest</span>
+                <span class="method-start">69510 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void EcommerceTests.ProductListPageTests.verifyPLPAndSelectsProductTest() throws java.lang.In...)</span>
+                <span class="method-start">80389 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">80389 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">EcommerceTests.ProductDetailPageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">80390 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">80390 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpOnceForSuite</span>
+                <span class="method-start">80392 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void EcommerceTests.ProductDetailPageTests.testSelectProductOptionsAndAddToBag() throws java....)</span>
+                <span class="method-start">80392 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSelectProductOptionsAndAddToBag</span>
+                <span class="method-start">80392 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void EcommerceTests.ProductDetailPageTests.testSelectProductOptionsAndAddToBag() throws java....)</span>
+                <span class="method-start">90213 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void EcommerceTests.ProductDetailPageTests.testClickBagIcon())</span>
+                <span class="method-start">90215 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpOnceForSuite</span>
+                <span class="method-start">90215 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClickBagIcon</span>
+                <span class="method-start">90216 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void EcommerceTests.ProductDetailPageTests.testClickBagIcon())</span>
+                <span class="method-start">101050 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">101051 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">EcommerceTests.ShoppingCartPageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">101052 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">101052 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void EcommerceTests.ShoppingCartPageTests.verifyCartSubtotalIsStored())</span>
+                <span class="method-start">101054 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpOnceForSuite</span>
+                <span class="method-start">101054 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyCartSubtotalIsStored</span>
+                <span class="method-start">101055 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void EcommerceTests.ShoppingCartPageTests.verifyCartSubtotalIsStored())</span>
+                <span class="method-start">101058 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpOnceForSuite</span>
+                <span class="method-start">101059 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductInCartMatchesSelectedProduct</span>
+                <span class="method-start">101059 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void EcommerceTests.ShoppingCartPageTests.verifyProductInCartMatchesSelectedProduct())</span>
+                <span class="method-start">101059 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void EcommerceTests.ShoppingCartPageTests.verifyProductInCartMatchesSelectedProduct())</span>
+                <span class="method-start">101116 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpOnceForSuite</span>
+                <span class="method-start">101117 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyUserProceedsToCheckout</span>
+                <span class="method-start">101117 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void EcommerceTests.ShoppingCartPageTests.verifyUserProceedsToCheckout() throws java.lang.Int...)</span>
+                <span class="method-start">101117 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void EcommerceTests.ShoppingCartPageTests.verifyUserProceedsToCheckout() throws java.lang.Int...)</span>
+                <span class="method-start">284547 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">284548 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">EcommerceTests.CheckOutPageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextPrepareTestInstance</span>
+                <span class="method-start">284549 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">springTestContextBeforeTestClass</span>
+                <span class="method-start">284549 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testDeliveryAndGrandTotalDisplay</span>
+                <span class="method-start">284551 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpOnceForSuite</span>
+                <span class="method-start">284551 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void EcommerceTests.CheckOutPageTests.testDeliveryAndGrandTotalDisplay())</span>
+                <span class="method-start">284551 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void EcommerceTests.CheckOutPageTests.testDeliveryAndGrandTotalDisplay())</span>
+                <span class="method-start">404599 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testProductDetailsMatchInCheckoutBagSection</span>
+                <span class="method-start">404601 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpOnceForSuite</span>
+                <span class="method-start">404601 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void EcommerceTests.CheckOutPageTests.testProductDetailsMatchInCheckoutBagSection())</span>
+                <span class="method-start">404601 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void EcommerceTests.CheckOutPageTests.testProductDetailsMatchInCheckoutBagSection())</span>
+                <span class="method-start">524914 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void EcommerceTests.CheckOutPageTests.testUserScrollsToPaymentMethod())</span>
+                <span class="method-start">524917 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpOnceForSuite</span>
+                <span class="method-start">524917 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testUserScrollsToPaymentMethod</span>
+                <span class="method-start">524917 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void EcommerceTests.CheckOutPageTests.testUserScrollsToPaymentMethod())</span>
+                <span class="method-start">645138 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">springTestContextBeforeTestMethod(public void EcommerceTests.CheckOutPageTests.testUserSelectsAndVerifiesPaymentMethod())</span>
+                <span class="method-start">645141 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpOnceForSuite</span>
+                <span class="method-start">645141 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testUserSelectsAndVerifiesPaymentMethod</span>
+                <span class="method-start">645141 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">springTestContextAfterTestMethod(public void EcommerceTests.CheckOutPageTests.testUserSelectsAndVerifiesPaymentMethod())</span>
+                <span class="method-start">768276 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">springTestContextAfterTestClass</span>
+                <span class="method-start">768277 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">EcommerceTests.HomePageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDownAfterSuite</span>
+                <span class="method-start">768305 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

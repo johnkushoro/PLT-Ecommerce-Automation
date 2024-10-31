@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Command line suite</th></tr>
+<tr><td><a href="#t0">Command line test</a></td><td class="num">9</td><td class="num">0</td><td class="num">0</td><td class="num attn">6</td><td class="num">768,278</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Command line suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="4">EcommerceTests.CheckOutPageTests</td><td><a href="#m0">testDeliveryAndGrandTotalDisplay</a></td><td rowspan="1">1730394314425</td><td rowspan="1">120046</td></tr><tr class="failedeven"><td><a href="#m1">testProductDetailsMatchInCheckoutBagSection</a></td><td rowspan="1">1730394434475</td><td rowspan="1">120311</td></tr><tr class="failedeven"><td><a href="#m2">testUserScrollsToPaymentMethod</a></td><td rowspan="1">1730394554791</td><td rowspan="1">120219</td></tr><tr class="failedeven"><td><a href="#m3">testUserSelectsAndVerifiesPaymentMethod</a></td><td rowspan="1">1730394675015</td><td rowspan="1">123134</td></tr><tr class="failedodd"><td rowspan="2">EcommerceTests.ShoppingCartPageTests</td><td><a href="#m4">verifyCartSubtotalIsStored</a></td><td rowspan="1">1730394130929</td><td rowspan="1">3</td></tr><tr class="failedodd"><td><a href="#m5">verifyUserProceedsToCheckout</a></td><td rowspan="1">1730394130991</td><td rowspan="1">183429</td></tr><tr><th colspan="4">Command line test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">EcommerceTests.AccountLoginPageTest</td><td><a href="#m6">accountLoginPageTest</a></td><td rowspan="1">1730394043748</td><td rowspan="1">43167</td></tr><tr class="passedeven"><td><a href="#m7">navigateToPLP</a></td><td rowspan="1">1730394086917</td><td rowspan="1">12452</td></tr><tr class="passedeven"><td><a href="#m8">verifyPLPNavigation</a></td><td rowspan="1">1730394099372</td><td rowspan="1">9</td></tr><tr class="passedodd"><td rowspan="2">EcommerceTests.HomePageTests</td><td><a href="#m9">navigateToLoginPageFromHomePageTest</a></td><td rowspan="1">1730394032196</td><td rowspan="1">11542</td></tr><tr class="passedodd"><td><a href="#m10">testHomePageNavigation</a></td><td rowspan="1">1730394043742</td><td rowspan="1">3</td></tr><tr class="passedeven"><td rowspan="2">EcommerceTests.ProductDetailPageTests</td><td><a href="#m11">testClickBagIcon</a></td><td rowspan="1">1730394120090</td><td rowspan="1">10833</td></tr><tr class="passedeven"><td><a href="#m12">testSelectProductOptionsAndAddToBag</a></td><td rowspan="1">1730394110266</td><td rowspan="1">9821</td></tr><tr class="passedodd"><td rowspan="1">EcommerceTests.ProductListPageTests</td><td><a href="#m13">verifyPLPAndSelectsProductTest</a></td><td rowspan="1">1730394099384</td><td rowspan="1">10878</td></tr><tr class="passedeven"><td rowspan="1">EcommerceTests.ShoppingCartPageTests</td><td><a href="#m14">verifyProductInCartMatchesSelectedProduct</a></td><td rowspan="1">1730394130933</td><td rowspan="1">57</td></tr></tbody>
+</table>
+<h2>Command line test</h2><h3 id="m0">EcommerceTests.CheckOutPageTests#testDeliveryAndGrandTotalDisplay</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: li[class=&apos;bag__totals-item&apos;] span:nth-child(2) (tried for 120 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.0.1&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.70, chrome: {chromedriverVersion: 130.0.6723.91 (53ac07678369..., userDataDir: /var/folders/m2/gnsdsm1x1q9...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52755}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52755/devtoo..., se:cdpVersion: 130.0.6723.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 181028a013f3e7d3ac8a19f073959b51
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at PageObject.CheckOutPage.checkAndGetDeliveryTotalText(CheckOutPage.java:101)
+	at EcommerceTests.CheckOutPageTests.testDeliveryAndGrandTotalDisplay(CheckOutPageTests.java:33)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:186)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at Runners.TestRunner.runTests(TestRunner.java:70)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 46 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">EcommerceTests.CheckOutPageTests#testProductDetailsMatchInCheckoutBagSection</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: li.bag-item__name (tried for 120 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.0.1&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.70, chrome: {chromedriverVersion: 130.0.6723.91 (53ac07678369..., userDataDir: /var/folders/m2/gnsdsm1x1q9...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52755}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52755/devtoo..., se:cdpVersion: 130.0.6723.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 181028a013f3e7d3ac8a19f073959b51
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at PageObject.CheckOutPage.ProductNameOnCheckout(CheckOutPage.java:75)
+	at PageObject.CheckOutPage.storeProductNameOnCheckout(CheckOutPage.java:55)
+	at PageObject.CheckOutPage.storeProductDetailsOnCheckout(CheckOutPage.java:46)
+	at EcommerceTests.CheckOutPageTests.testProductDetailsMatchInCheckoutBagSection(CheckOutPageTests.java:22)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:186)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at Runners.TestRunner.runTests(TestRunner.java:70)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 46 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">EcommerceTests.CheckOutPageTests#testUserScrollsToPaymentMethod</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: .box__title-container .box__title (tried for 120 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.0.1&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.70, chrome: {chromedriverVersion: 130.0.6723.91 (53ac07678369..., userDataDir: /var/folders/m2/gnsdsm1x1q9...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52755}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52755/devtoo..., se:cdpVersion: 130.0.6723.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 181028a013f3e7d3ac8a19f073959b51
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at PageObject.CheckOutPage.checkAndGetPaymentInformationText(CheckOutPage.java:117)
+	at EcommerceTests.CheckOutPageTests.testUserScrollsToPaymentMethod(CheckOutPageTests.java:39)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:186)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at Runners.TestRunner.runTests(TestRunner.java:70)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 46 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">EcommerceTests.CheckOutPageTests#testUserSelectsAndVerifiesPaymentMethod</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //label[.//h4[text()=&apos;%$&apos;]]//input[@type=&apos;radio&apos;] (tried for 120 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.0.1&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.70, chrome: {chromedriverVersion: 130.0.6723.91 (53ac07678369..., userDataDir: /var/folders/m2/gnsdsm1x1q9...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52755}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52755/devtoo..., se:cdpVersion: 130.0.6723.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 181028a013f3e7d3ac8a19f073959b51
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at PageObject.CheckOutPage.clickAndVerifyButtonByLabelText(CheckOutPage.java:140)
+	at EcommerceTests.CheckOutPageTests.testUserSelectsAndVerifiesPaymentMethod(CheckOutPageTests.java:45)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:186)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at Runners.TestRunner.runTests(TestRunner.java:70)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 46 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">EcommerceTests.ShoppingCartPageTests#verifyCartSubtotalIsStored</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;Model.ProductDetails.getProductSubtotal()&quot; because the return value of &quot;PageObject.ShoppingCartPage.getProductDetails()&quot; is null
+	at EcommerceTests.ShoppingCartPageTests.verifyCartSubtotalIsStored(ShoppingCartPageTests.java:31)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:186)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at Runners.TestRunner.runTests(TestRunner.java:70)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 46 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">EcommerceTests.ShoppingCartPageTests#verifyUserProceedsToCheckout</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: The user was not navigated to the checkout page. expected [true] but found [false]
+	at EcommerceTests.ShoppingCartPageTests.verifyUserProceedsToCheckout(ShoppingCartPageTests.java:38)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.run(AbstractTestNGSpringContextTests.java:186)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at Runners.TestRunner.runTests(TestRunner.java:70)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 49 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">EcommerceTests.AccountLoginPageTest#accountLoginPageTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">EcommerceTests.AccountLoginPageTest#navigateToPLP</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">EcommerceTests.AccountLoginPageTest#verifyPLPNavigation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">EcommerceTests.HomePageTests#navigateToLoginPageFromHomePageTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">EcommerceTests.HomePageTests#testHomePageNavigation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">EcommerceTests.ProductDetailPageTests#testClickBagIcon</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">EcommerceTests.ProductDetailPageTests#testSelectProductOptionsAndAddToBag</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">EcommerceTests.ProductListPageTests#verifyPLPAndSelectsProductTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">EcommerceTests.ShoppingCartPageTests#verifyProductInCartMatchesSelectedProduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
